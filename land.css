@@ -1,0 +1,115 @@
+.navgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 35px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+body{
+    background-color: #2F1893;
+}
+.navg2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.navg1{
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-items: center;
+}
+.ngitem{
+    color: white;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 75px 75px;
+    /* border: black solid 1px; */
+    justify-items: center;
+}
+h1{
+    /* font-size: 50px; */
+}
+.g1item1{
+    /* border: black solid 2px; */
+    width: 400px;
+    padding-top: 20px;
+    /* align-items: end; */
+    /* text-align: center; */
+}
+.g1i1e2{
+    /* border: solid black 1px; */
+    width: 250px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    color: white;
+}
+.g1i1e1{
+    color: white;
+}
+.form1{
+    width: 200px;
+}
+.g1item2{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    /* align-content: baseline; */
+    border-radius: 8px;
+    width: 450px;
+    height: 500px;
+}
+.g1i2e2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.mail1{
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+}
+.pword1{
+    border-radius: 50px; 
+    width: 300px;
+    height: 40px;
+}
+.g1i2{
+    /* padding-top: 25px; */
+    /* padding-bottom: 20px; */
+}
+.g1i2e1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+.btn{
+    border-radius: 20px;
+}
+.signin{
+    /* height: 100px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: #482be7;
+    background-color: #482be7;
+}
+.login{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: #1da1f2;
+    background-color: #1da1f2;
+}
+.or{
+    text-align: center;
+    padding: 10px 0px;
+}
+.span1{
+    color: #25dac5;
+}
